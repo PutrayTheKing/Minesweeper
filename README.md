@@ -1,0 +1,2 @@
+# Minesweeper
+Minesweeper mini project
