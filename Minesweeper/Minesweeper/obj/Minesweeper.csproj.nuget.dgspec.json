@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lukac\\Documents\\VS\\ekke\\el sweeper the minos\\Minesweeper\\Minesweeper\\Minesweeper.csproj": {}
+    "C:\\School\\Projekt Labor\\Minesweeper\\Minesweeper\\Minesweeper.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lukac\\Documents\\VS\\ekke\\el sweeper the minos\\Minesweeper\\Minesweeper\\Minesweeper.csproj": {
+    "C:\\School\\Projekt Labor\\Minesweeper\\Minesweeper\\Minesweeper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lukac\\Documents\\VS\\ekke\\el sweeper the minos\\Minesweeper\\Minesweeper\\Minesweeper.csproj",
+        "projectUniqueName": "C:\\School\\Projekt Labor\\Minesweeper\\Minesweeper\\Minesweeper.csproj",
         "projectName": "Minesweeper",
-        "projectPath": "C:\\Users\\lukac\\Documents\\VS\\ekke\\el sweeper the minos\\Minesweeper\\Minesweeper\\Minesweeper.csproj",
-        "packagesPath": "C:\\Users\\lukac\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lukac\\Documents\\VS\\ekke\\el sweeper the minos\\Minesweeper\\Minesweeper\\obj\\",
+        "projectPath": "C:\\School\\Projekt Labor\\Minesweeper\\Minesweeper\\Minesweeper.csproj",
+        "packagesPath": "C:\\Users\\2006n\\.nuget\\packages\\",
+        "outputPath": "C:\\School\\Projekt Labor\\Minesweeper\\Minesweeper\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\lukac\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\2006n\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
