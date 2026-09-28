@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lukac\\Documents\\VS\\ekke\\el sweeper the minos\\Minesweeper\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B3D46B9C-A704-49C6-808B-493BBB9185AA}|Minesweeper\\Minesweeper.csproj|c:\\users\\lukac\\documents\\vs\\ekke\\el sweeper the minos\\minesweeper\\minesweeper\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3D46B9C-A704-49C6-808B-493BBB9185AA}|Minesweeper\\Minesweeper.csproj|solutionrelative:minesweeper\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\lukac\\Documents\\VS\\ekke\\el sweeper the minos\\Minesweeper\\Minesweeper\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Minesweeper\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\lukac\\Documents\\VS\\ekke\\el sweeper the minos\\Minesweeper\\Minesweeper\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Minesweeper\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T18:43:28.897Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
