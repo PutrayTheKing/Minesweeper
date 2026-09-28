@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\lukac\\Documents\\VS\\ekke\\el sweeper the minos\\Minesweeper\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B3D46B9C-A704-49C6-808B-493BBB9185AA}|Minesweeper\\Minesweeper.csproj|c:\\users\\lukac\\documents\\vs\\ekke\\el sweeper the minos\\minesweeper\\minesweeper\\minesweeper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3D46B9C-A704-49C6-808B-493BBB9185AA}|Minesweeper\\Minesweeper.csproj|solutionrelative:minesweeper\\minesweeper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3D46B9C-A704-49C6-808B-493BBB9185AA}|Minesweeper\\Minesweeper.csproj|c:\\users\\lukac\\documents\\vs\\ekke\\el sweeper the minos\\minesweeper\\minesweeper\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B3D46B9C-A704-49C6-808B-493BBB9185AA}|Minesweeper\\Minesweeper.csproj|solutionrelative:minesweeper\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lukac\\Documents\\VS\\ekke\\el sweeper the minos\\Minesweeper\\Minesweeper\\obj\\Debug\\net8.0-windows\\App.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Minesweeper\\obj\\Debug\\net8.0-windows\\App.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B3D46B9C-A704-49C6-808B-493BBB9185AA}|Minesweeper\\Minesweeper.csproj|c:\\users\\lukac\\documents\\vs\\ekke\\el sweeper the minos\\minesweeper\\minesweeper\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3D46B9C-A704-49C6-808B-493BBB9185AA}|Minesweeper\\Minesweeper.csproj|solutionrelative:minesweeper\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3D46B9C-A704-49C6-808B-493BBB9185AA}|Minesweeper\\Minesweeper.csproj|c:\\users\\lukac\\documents\\vs\\ekke\\el sweeper the minos\\minesweeper\\minesweeper\\sweeper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3D46B9C-A704-49C6-808B-493BBB9185AA}|Minesweeper\\Minesweeper.csproj|solutionrelative:minesweeper\\sweeper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Minesweeper.cs",
-              "DocumentMoniker": "C:\\Users\\lukac\\Documents\\VS\\ekke\\el sweeper the minos\\Minesweeper\\Minesweeper\\Minesweeper.cs",
-              "RelativeDocumentMoniker": "Minesweeper\\Minesweeper.cs",
-              "ToolTip": "C:\\Users\\lukac\\Documents\\VS\\ekke\\el sweeper the minos\\Minesweeper\\Minesweeper\\Minesweeper.cs",
-              "RelativeToolTip": "Minesweeper\\Minesweeper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "App.g.cs",
+              "DocumentMoniker": "C:\\Users\\lukac\\Documents\\VS\\ekke\\el sweeper the minos\\Minesweeper\\Minesweeper\\obj\\Debug\\net8.0-windows\\App.g.cs",
+              "RelativeDocumentMoniker": "Minesweeper\\obj\\Debug\\net8.0-windows\\App.g.cs",
+              "ToolTip": "C:\\Users\\lukac\\Documents\\VS\\ekke\\el sweeper the minos\\Minesweeper\\Minesweeper\\obj\\Debug\\net8.0-windows\\App.g.cs",
+              "RelativeToolTip": "Minesweeper\\obj\\Debug\\net8.0-windows\\App.g.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAWwEcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-28T19:00:15.175Z",
+              "WhenOpened": "2026-09-28T19:48:17.462Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\lukac\\Documents\\VS\\ekke\\el sweeper the minos\\Minesweeper\\Minesweeper\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Minesweeper\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\lukac\\Documents\\VS\\ekke\\el sweeper the minos\\Minesweeper\\Minesweeper\\MainWindow.xaml*",
+              "RelativeToolTip": "Minesweeper\\MainWindow.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-28T20:40:33.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\lukac\\Documents\\VS\\ekke\\el sweeper the minos\\Minesweeper\\Minesweeper\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Minesweeper\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\lukac\\Documents\\VS\\ekke\\el sweeper the minos\\Minesweeper\\Minesweeper\\MainWindow.xaml.cs",
               "RelativeToolTip": "Minesweeper\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-28T18:43:28.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Sweeper.cs",
+              "DocumentMoniker": "C:\\Users\\lukac\\Documents\\VS\\ekke\\el sweeper the minos\\Minesweeper\\Minesweeper\\Sweeper.cs",
+              "RelativeDocumentMoniker": "Minesweeper\\Sweeper.cs",
+              "ToolTip": "C:\\Users\\lukac\\Documents\\VS\\ekke\\el sweeper the minos\\Minesweeper\\Minesweeper\\Sweeper.cs*",
+              "RelativeToolTip": "Minesweeper\\Sweeper.cs*",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAIwCoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T19:00:15.175Z",
               "EditorCaption": ""
             }
           ]
