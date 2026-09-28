@@ -14,5 +14,24 @@ namespace Minesweeper
         static int[] LocationOfMines = new int[NumberOfMines];
         static int[,] Topography = new int[SizeOfField, SizeOfField];
 
+        static void CreateMines()
+        {
+            Random rnd = new Random();
+
+            int counter = 0;
+
+            while (counter < NumberOfMines)
+            {
+                int random = rnd.Next(0, (SizeOfField * SizeOfField));
+
+                if (!LocationOfMines.Contains(random))
+                {
+                    LocationOfMines[counter] = random;
+                    counter++;
+                }
+            }
+        }
+
+
     }
 }
