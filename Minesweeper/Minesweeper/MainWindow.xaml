@@ -5,15 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Minesweeper"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" ResizeMode="NoResize">
     <Grid>
-        <TextBlock Text="Minesweeper" FontSize="50" FontFamily="Times New Roman" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0, 50, 0, 0"/>
-        <TextBlock Text="Size: 9x9" FontSize="40" FontFamily="Times New Roman" Margin="150, 0, 0, 0" Height="50" Width="200" HorizontalAlignment="Left"/>
-        <Menu FontSize="40" FontFamily="Times New Roman" Margin="0, 0, 100, 0" Height="50" Width="250" HorizontalAlignment="Right">
-            <MenuItem Header="Silly Theme"/>
-            <MenuItem Header="Cool Theme"/>
-            <MenuItem Header="Evil Theme"/>
-        </Menu>
-        <Button x:Name="Start" Content="Start" FontSize="50" Height="60" Width="200" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Center" FontFamily="Times New Roman" VerticalAlignment="Bottom" Margin="0, 0, 0, 100" BorderThickness="3"/>
+        <TextBlock Text="Minesweeper" FontSize="50" FontFamily="Times New Roman" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0, 120, 0, 0"/>
+        <Button x:Name="Start" Content="Start" FontSize="50" Height="60" Width="200" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Center" FontFamily="Times New Roman" VerticalAlignment="Bottom" Margin="0, 0, 0, 120" BorderThickness="3"/>
     </Grid>
 </Window>
