@@ -8,4 +8,18 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="ButtonBackground.jpg" />
+    <None Remove="Logo.png" />
+    <None Remove="StartScreenBackground.jpg" />
+    <None Remove="Unexplored Tile.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="ButtonBackground.jpg" />
+    <Resource Include="Logo.png" />
+    <Resource Include="StartScreenBackground.jpg" />
+    <Resource Include="Unexplored Tile.jpg" />
+  </ItemGroup>
+
 </Project>
