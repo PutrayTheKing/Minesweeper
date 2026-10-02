@@ -23,13 +23,19 @@ namespace Minesweeper
         {
             InitializeComponent();
         }
-        
-        private void B00_Click(object sender, RoutedEventArgs e)
+
+        private void RevealTile(object sender, RoutedEventArgs e)
         {
             if (sender is Button clickedButton &&
                 clickedButton.Template.FindName("TileImage", clickedButton) is Image image)
             {
                 string currentSource = image.Source?.ToString() ?? "";
+                if (!currentSource.Contains("Unexplored Tile.jpg") && !currentSource.Contains("Flagged Tile.jpg"))
+                {
+                    e.Handled = true;
+                    return;
+                }
+
                 if (currentSource.Contains("Flagged Tile.jpg"))
                 {
                     return;
@@ -43,12 +49,16 @@ namespace Minesweeper
             }
         }
 
-        private void B00_RightClick(object sender, MouseButtonEventArgs e)
+        private void FlagTile(object sender, RoutedEventArgs e)
         {
             if (sender is Button clickedButton &&
                 clickedButton.Template.FindName("TileImage", clickedButton) is Image image)
             {
                 string currentSource = image.Source?.ToString() ?? "";
+                if (currentSource.Contains("Revealed Tile.jpg"))
+                {
+                    return;
+                }
                 if (currentSource.Contains("Flagged Tile.jpg"))
                 {
                     image.Source = new BitmapImage(
@@ -63,6 +73,15 @@ namespace Minesweeper
                 }
             }
             e.Handled = true;
+        }
+        
+        private void B00_Click(object sender, RoutedEventArgs e)
+        {
+            RevealTile(sender, e);
+        }
+        private void B00_RightClick(object sender, MouseButtonEventArgs e)
+        {
+            FlagTile(sender, e);
         }
     }
 }
