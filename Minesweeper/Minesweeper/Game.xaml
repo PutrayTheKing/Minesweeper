@@ -31,12 +31,12 @@
         </Grid.RowDefinitions>
         
         <!--Row1-->
-        <Button x:Name="B00" Grid.Column="0" Grid.Row="0">
+        <Button x:Name="B00" Grid.Column="0" Grid.Row="0" Click="B00_Click" MouseRightButtonDown="B00_RightClick">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
                         <Grid>
-                            <Image Source="/Unexplored Tile.jpg" Stretch="Fill"/>
+                            <Image x:Name="TileImage" Source="/Unexplored Tile.jpg" Stretch="Fill"/>
                             <Rectangle x:Name="HoverOverlay" Fill="Black" Opacity="0"/>
                             <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Grid>
@@ -57,6 +57,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
+        
         <Button x:Name="B01" Grid.Column="1" Grid.Row="0">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
