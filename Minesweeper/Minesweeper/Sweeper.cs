@@ -8,11 +8,15 @@ namespace Minesweeper
 {
     public class Sweeper
     {
+        Field field = new Field();
+
         static int SizeOfField = 9;
         static int NumberOfMines = 10;
 
         static int[] LocationOfMines = new int[NumberOfMines];
         static int[,] Topography = new int[SizeOfField, SizeOfField];
+        static Field[,] FieldMatrix = new Field[SizeOfField, SizeOfField];
+
 
         public static void CreateMines()
         {
@@ -32,7 +36,7 @@ namespace Minesweeper
             }
         }
 
-        static void CreateTopography()
+        public static void CreateTopography()
         {
             for (int i = 0; i < NumberOfMines; i++)
             {
@@ -46,7 +50,7 @@ namespace Minesweeper
                 if (posX > 0)
                     Topography[posX - 1, posY]++;
 
-                if (posX > 0 && posY < SizeOfField)
+                if (posX > 0 && posY < (SizeOfField - 1))
                     Topography[posX - 1, posY + 1]++;
 
 
@@ -54,18 +58,18 @@ namespace Minesweeper
                 if (posY > 0)
                     Topography[posX, posY - 1]++;
 
-                if (posY < SizeOfField)
+                if (posY < (SizeOfField - 1))
                     Topography[posX, posY + 1]++;
 
 
 
-                if (posX < SizeOfField && posY > 0)
+                if (posX < (SizeOfField - 1) && posY > 0)
                     Topography[posX + 1, posY - 1]++;
 
-                if (posX < SizeOfField)
+                if (posX < (SizeOfField - 1))
                     Topography[posX + 1, posY]++;
 
-                if (posX < SizeOfField && posY < SizeOfField)
+                if (posX < (SizeOfField - 1) && posY < (SizeOfField - 1))
                     Topography[posX + 1, posY + 1]++;   
             }
 
@@ -77,5 +81,28 @@ namespace Minesweeper
                 Topography[posX, posY] = -1;
             }
         }
+
+        public static void GenerateFields()
+        {
+            for (int i = 0; i < SizeOfField; i++)
+            {
+                for (int j = 0; j < SizeOfField; j++)
+                {
+                    Field tempField = new Field();
+
+                    if (Topography[i, j] > 0)
+                    {
+                        tempField.BombsNearby = Topography[i, j];
+                    }
+                    else
+                    {
+                        tempField.IsBomb = true;
+                    }
+
+                    FieldMatrix[i, j] = tempField;
+                }
+            }
+        }
+
     }
 }
