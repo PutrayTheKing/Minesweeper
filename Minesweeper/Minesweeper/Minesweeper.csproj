@@ -10,14 +10,40 @@
 
   <ItemGroup>
     <None Remove="ButtonBackground.jpg" />
+    <None Remove="Images\EightBomb.jpg" />
+    <None Remove="Images\ExplodedBomb.jpg" />
+    <None Remove="Images\FiveBomb.jpg" />
+    <None Remove="Images\FlaggedTile.jpg" />
+    <None Remove="Images\FourBomb.jpg" />
+    <None Remove="Images\OneBomb.jpg" />
+    <None Remove="Images\RevealedTile.jpg" />
+    <None Remove="Images\SevenBomb.jpg" />
+    <None Remove="Images\SixBomb.jpg" />
+    <None Remove="Images\StartScreenBackground.jpg" />
+    <None Remove="Images\ThreeBomb.jpg" />
+    <None Remove="Images\TwoBomb.jpg" />
+    <None Remove="Images\UnexploredTile.jpg" />
     <None Remove="Logo.png" />
     <None Remove="StartScreenBackground.jpg" />
     <None Remove="Unexplored Tile.jpg" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="ButtonBackground.jpg" />
-    <Resource Include="Logo.png" />
+    <Resource Include="Images\ButtonBackground.jpg" />
+    <Resource Include="Images\EightBomb.jpg" />
+    <Resource Include="Images\ExplodedBomb.jpg" />
+    <Resource Include="Images\FiveBomb.jpg" />
+    <Resource Include="Images\FlaggedTile.jpg" />
+    <Resource Include="Images\FourBomb.jpg" />
+    <Resource Include="Images\Logo.png" />
+    <Resource Include="Images\OneBomb.jpg" />
+    <Resource Include="Images\RevealedTile.jpg" />
+    <Resource Include="Images\SevenBomb.jpg" />
+    <Resource Include="Images\SixBomb.jpg" />
+    <Resource Include="Images\StartScreenBackground.jpg" />
+    <Resource Include="Images\ThreeBomb.jpg" />
+    <Resource Include="Images\TwoBomb.jpg" />
+    <Resource Include="Images\UnexploredTile.jpg" />
     <Resource Include="StartScreenBackground.jpg" />
     <Resource Include="Unexplored Tile.jpg" />
   </ItemGroup>

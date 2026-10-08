@@ -17,7 +17,7 @@
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
                         <Grid>
-                            <Image Source="/ButtonBackground.jpg" Stretch="Fill"/>
+                            <Image Source="pack://application:,,,/Images/ButtonBackground.jpg" Stretch="Fill"/>
                             <Rectangle x:Name="HoverOverlay" Fill="Black" Opacity="0"/>
                             <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Grid>
@@ -38,8 +38,8 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        
-        <Image Source="/Logo.png" VerticalAlignment="Top" HorizontalAlignment="Center" Width="650" Margin="0, 90, 0, 0" Stretch="Uniform">
+
+        <Image Source="pack://application:,,,/Images/Logo.png" VerticalAlignment="Top" HorizontalAlignment="Center" Width="650" Margin="0, 90, 0, 0" Stretch="Uniform">
             <Image.Effect>
                 <DropShadowEffect/>
             </Image.Effect>

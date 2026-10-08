@@ -14,9 +14,6 @@ using System.Windows.Shapes;
 
 namespace Minesweeper
 {
-    /// <summary>
-    /// Interaction logic for Game.xaml
-    /// </summary>
     public partial class Game : Window
     {
         public Game()
@@ -30,22 +27,17 @@ namespace Minesweeper
                 clickedButton.Template.FindName("TileImage", clickedButton) is Image image)
             {
                 string currentSource = image.Source?.ToString() ?? "";
-                if (!currentSource.Contains("Unexplored Tile.jpg") && !currentSource.Contains("Flagged Tile.jpg"))
-                {
-                    e.Handled = true;
-                    return;
-                }
 
-                if (currentSource.Contains("Flagged Tile.jpg"))
+                if (currentSource.Contains("FlaggedTile.jpg"))
                 {
                     return;
                 }
                 else
                 {
                     image.Source = new BitmapImage(
-                    new Uri(@"C:\School\Projekt Labor\Minesweeper\Minesweeper\bin\Debug\net8.0-windows\Revealed Tile.jpg", UriKind.Absolute)
-                    );
+                    new Uri("pack://application:,,,/Images/RevealedTile.jpg", UriKind.Absolute));
                 }
+                e.Handled = true;
             }
         }
 
@@ -57,15 +49,14 @@ namespace Minesweeper
                 clickedButton.Template.FindName("TileImage", clickedButton) is Image image)
             {
                 string currentSource = image.Source?.ToString() ?? "";
-                if (currentSource.Contains("Revealed Tile.jpg"))
+                if (currentSource.Contains("RevealedTile.jpg"))
                 {
                     return;
                 }
-                if (currentSource.Contains("Flagged Tile.jpg"))
+                if (currentSource.Contains("FlaggedTile.jpg"))
                 {
                     image.Source = new BitmapImage(
-                    new Uri(@"C:\School\Projekt Labor\Minesweeper\Minesweeper\bin\Debug\net8.0-windows\Unexplored Tile.jpg", UriKind.Absolute)
-                    );
+                    new Uri("pack://application:,,,/Images/UnexploredTile.jpg", UriKind.Absolute));
                     flaggedtiles -= 1;
                 }
                 else
@@ -77,8 +68,7 @@ namespace Minesweeper
                     else
                     {
                         image.Source = new BitmapImage(
-                        new Uri(@"C:\School\Projekt Labor\Minesweeper\Minesweeper\bin\Debug\net8.0-windows\Flagged Tile.jpg", UriKind.Absolute)
-                        );
+                        new Uri("pack://application:,,,/Images/FlaggedTile.jpg", UriKind.Absolute));
                         flaggedtiles += 1;
                     }
                 }

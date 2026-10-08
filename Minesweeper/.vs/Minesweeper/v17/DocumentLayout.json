@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "Minesweeper\\Game.xaml.cs",
               "ToolTip": "C:\\School\\Projekt Labor\\Minesweeper\\Minesweeper\\Game.xaml.cs",
               "RelativeToolTip": "Minesweeper\\Game.xaml.cs",
-              "ViewState": "AgIAAFwDAAAAAAAAAAAcwH4DAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAxwBwAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-02T11:59:18.405Z",
               "EditorCaption": ""
@@ -50,8 +50,7 @@
               "ToolTip": "C:\\School\\Projekt Labor\\Minesweeper\\Minesweeper\\Game.xaml",
               "RelativeToolTip": "Minesweeper\\Game.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-10-01T17:18:35.103Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-01T17:18:35.103Z"
             },
             {
               "$type": "Document",
@@ -61,7 +60,7 @@
               "RelativeDocumentMoniker": "Minesweeper\\MainWindow.xaml.cs",
               "ToolTip": "C:\\School\\Projekt Labor\\Minesweeper\\Minesweeper\\MainWindow.xaml.cs",
               "RelativeToolTip": "Minesweeper\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAuwBoAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAuwBQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-01T17:18:14.514Z"
             },
