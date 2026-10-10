@@ -115,11 +115,12 @@ namespace Minesweeper
 
         private void FlagTile(object sender, RoutedEventArgs e)
         {
+            var (y, x) = SenderPos(sender);
             if (sender is Button clickedButton &&
                 clickedButton.Template.FindName("TileImage", clickedButton) is Image image)
             {
                 string currentSource = image.Source?.ToString() ?? "";
-                if (currentSource.Contains("RevealedTile.jpg"))
+                if (sweeper.FieldMatrix[y, x].IsRevealed == true)
                 {
                     return;
                 }
@@ -128,8 +129,6 @@ namespace Minesweeper
                     image.Source = new BitmapImage(
                     new Uri("pack://application:,,,/Images/UnexploredTile.jpg", UriKind.Absolute));
                     flaggedtiles -= 1;
-
-                    var (y, x) = SenderPos(sender);
                     sweeper.FieldMatrix[y, x].IsFlagged = false;
                 }
                 else
@@ -143,8 +142,6 @@ namespace Minesweeper
                         image.Source = new BitmapImage(
                         new Uri("pack://application:,,,/Images/FlaggedTile.jpg", UriKind.Absolute));
                         flaggedtiles += 1;
-
-                        var (y, x) = SenderPos(sender);
                         sweeper.FieldMatrix[y, x].IsFlagged = true;
                     }
                 }
