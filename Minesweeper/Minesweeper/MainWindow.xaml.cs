@@ -20,11 +20,6 @@ namespace Minesweeper
         public MainWindow()
         {
             InitializeComponent();
-            Sweeper sweeper = new Sweeper();
-
-            sweeper.CreateMines();
-            sweeper.CreateTopography();
-            sweeper.GenerateFields();
         }
 
         private Game game;

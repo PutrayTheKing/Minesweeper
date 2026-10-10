@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -16,9 +17,31 @@ namespace Minesweeper
 {
     public partial class Game : Window
     {
+        Sweeper sweeper;
         public Game()
         {
             InitializeComponent();
+            sweeper = new Sweeper();
+
+            sweeper.CreateMines();
+            sweeper.CreateTopography();
+            sweeper.GenerateFields();
+        }
+
+        (int,int) SenderPos(object send)
+        {
+            int posY = 0;
+            int posX = 0;
+
+            if (send is Button button && button.Tag is string tagString)
+            {
+
+                string[] pos = tagString.Split(',');
+                posY = int.Parse(pos[0]);
+                posX = int.Parse(pos[1]);
+            }
+
+            return (posY, posX);
         }
 
         private void RevealTile(object sender, RoutedEventArgs e)
@@ -37,6 +60,10 @@ namespace Minesweeper
                     image.Source = new BitmapImage(
                     new Uri("pack://application:,,,/Images/RevealedTile.jpg", UriKind.Absolute));
                 }
+
+                var (y, x) = SenderPos(sender);
+                sweeper.FieldMatrix[y,x].IsRevealed = true;
+
                 e.Handled = true;
             }
         }
@@ -58,6 +85,9 @@ namespace Minesweeper
                     image.Source = new BitmapImage(
                     new Uri("pack://application:,,,/Images/UnexploredTile.jpg", UriKind.Absolute));
                     flaggedtiles -= 1;
+
+                    var (y, x) = SenderPos(sender);
+                    sweeper.FieldMatrix[y, x].IsFlagged = false;
                 }
                 else
                 {
@@ -70,6 +100,9 @@ namespace Minesweeper
                         image.Source = new BitmapImage(
                         new Uri("pack://application:,,,/Images/FlaggedTile.jpg", UriKind.Absolute));
                         flaggedtiles += 1;
+
+                        var (y, x) = SenderPos(sender);
+                        sweeper.FieldMatrix[y, x].IsFlagged = true;
                     }
                 }
             }
