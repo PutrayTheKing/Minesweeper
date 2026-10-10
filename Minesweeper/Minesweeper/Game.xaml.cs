@@ -44,6 +44,44 @@ namespace Minesweeper
             return (posY, posX);
         }
 
+        private void RevealConnected(int y, int x)
+        {
+            if (y < 0 || y > 8 || x < 0 || x > 8)
+                return;
+
+            if (sweeper.FieldMatrix[y, x].IsRevealed || sweeper.FieldMatrix[y, x].IsBomb)
+                return;
+
+            sweeper.FieldMatrix[y, x].IsRevealed = true;
+            RevealAt(y, x);
+
+            if (sweeper.FieldMatrix[y, x].BombsNearby == 0)
+            {
+                for (int i = -1; i <= 1; i++)
+                {
+                    for (int j = -1; j <= 1; j++)
+                    {
+                        if (i != 0 && j != 0) continue;
+                        RevealConnected(y + i, x + j);
+                    }
+                }
+            }
+        }
+
+        private void RevealAt(int y, int x)
+        {
+            foreach (var child in Minefield.Children)
+            {
+                if (child is Button btn && btn.Tag is string tag && tag == $"{y},{x}")
+                {
+                    Image image = btn.Template.FindName("TileImage", btn) as Image;
+                    image.Source = new BitmapImage(
+                    new Uri("pack://application:,,,/Images/RevealedTile.jpg", UriKind.Absolute));
+                }
+            }
+
+        }
+
         private void RevealTile(object sender, RoutedEventArgs e)
         {
             var (y, x) = SenderPos(sender);
@@ -102,6 +140,7 @@ namespace Minesweeper
                         default:
                             image.Source = new BitmapImage(
                             new Uri("pack://application:,,,/Images/RevealedTile.jpg", UriKind.Absolute));
+                            RevealConnected(y, x);
                             break;
                     }
                 }

@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Minesweeper"
         mc:Ignorable="d"
         Title="Minesweeper - Game" Height="650" Width="650" ResizeMode="NoResize">
-    <Grid>
+    <Grid Name="Minefield">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition/>
