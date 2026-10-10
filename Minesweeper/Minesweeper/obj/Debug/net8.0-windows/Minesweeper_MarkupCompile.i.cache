@@ -5,12 +5,16 @@ winexe
 C#
 .cs
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Frontend
 C:\School\Projekt Labor\Minesweeper\Minesweeper\obj\Debug\net8.0-windows\
 Minesweeper
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\School\Projekt Labor\Minesweeper\Minesweeper\App.xaml
+<<<<<<< HEAD
 =======
 C:\Users\User\Documents\LN5N15\Minesweeper\Minesweeper\obj\Debug\net8.0-windows\
 Minesweeper
@@ -20,10 +24,13 @@ TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR
 C:\Users\User\Documents\LN5N15\Minesweeper\Minesweeper\App.xaml
 >>>>>>> Development
 11407045341
+=======
+2-1130517889
+>>>>>>> Frontend
 
-6174080412
+7-1013885626
 198986609145
-MainWindow.xaml;
+Game.xaml;MainWindow.xaml;
 
 True
 

@@ -22,5 +22,14 @@ namespace Minesweeper
             InitializeComponent();
             Sweeper.CreateMines();
         }
+
+        private Game game;
+
+        private void StartButton_Click(object sender, RoutedEventArgs e)
+        {
+            game?.Close();
+            game = new Game();
+            game.Show();
+        }
     }
 }

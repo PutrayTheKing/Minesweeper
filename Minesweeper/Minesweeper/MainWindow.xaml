@@ -5,8 +5,44 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Minesweeper"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Minesweeper - Esszencia Martalócok" Height="450" Width="800" ResizeMode="NoResize">
     <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/StartScreenBackground.jpg"/>
+        </Grid.Background>
+        <Button x:Name="StartButton" Content="START" FontSize="50" Height="60" Width="200" HorizontalAlignment="Center" VerticalAlignment="Bottom"
+                Margin="0,0,0,40" FontFamily="Times New Roman" Foreground="#FF62301E" FontWeight="Bold" BorderThickness="3" BorderBrush="#FF251829"
+                Click="StartButton_Click">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
+                        <Grid>
+                            <Image Source="pack://application:,,,/Images/ButtonBackground.jpg" Stretch="Fill"/>
+                            <Rectangle x:Name="HoverOverlay" Fill="Black" Opacity="0"/>
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Grid>
+                        <Border.Effect>
+                            <DropShadowEffect/>
+                        </Border.Effect>
+                    </Border>
 
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="HoverOverlay" Property="Opacity" Value="0.20"/>
+                        </Trigger>
+
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter TargetName="HoverOverlay" Property="Opacity" Value="0.35"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+
+        <Image Source="pack://application:,,,/Images/Logo.png" VerticalAlignment="Top" HorizontalAlignment="Center" Width="650" Margin="0, 90, 0, 0" Stretch="Uniform">
+            <Image.Effect>
+                <DropShadowEffect/>
+            </Image.Effect>
+        </Image>
     </Grid>
 </Window>
