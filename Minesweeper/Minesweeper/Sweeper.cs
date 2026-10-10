@@ -90,7 +90,7 @@ namespace Minesweeper
                 {
                     Field tempField = new Field();
 
-                    if (Topography[i, j] > 0)
+                    if (Topography[i, j] >= 0)
                     {
                         tempField.BombsNearby = Topography[i, j];
                     }
