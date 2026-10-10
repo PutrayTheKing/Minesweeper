@@ -61,8 +61,8 @@ namespace Minesweeper
                 {
                     for (int j = -1; j <= 1; j++)
                     {
-                        if (i != 0 && j != 0) continue;
-                        RevealConnected(y + i, x + j);
+                        if (!(i == 0 && j == 0))
+                            RevealConnected(y + i, x + j);
                     }
                 }
             }
@@ -117,7 +117,6 @@ namespace Minesweeper
                     }
                 }
             }
-
         }
 
         private void RevealTile(object sender, RoutedEventArgs e)
@@ -182,6 +181,7 @@ namespace Minesweeper
                             break;
                     }
                 }
+
                 sweeper.FieldMatrix[y,x].IsRevealed = true;
 
                 e.Handled = true;
@@ -236,6 +236,7 @@ namespace Minesweeper
                     }
                 }
             }
+
             e.Handled = true;
         }
         
