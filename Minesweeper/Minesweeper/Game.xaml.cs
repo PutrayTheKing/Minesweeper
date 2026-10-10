@@ -153,7 +153,7 @@ namespace Minesweeper
 
                         if (bombsFlagged == 10)
                         {
-                            MessageBox.Show("Vesztettél!", "Játék Vége!");
+                            MessageBox.Show("Nyertél!", "Játék Vége!");
                             this.Close();
                         }
                     }
