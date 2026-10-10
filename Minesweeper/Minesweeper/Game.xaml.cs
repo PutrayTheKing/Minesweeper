@@ -60,7 +60,8 @@ namespace Minesweeper
                 {
                     image.Source = new BitmapImage(
                     new Uri("pack://application:,,,/Images/ExplodedBomb.jpg", UriKind.Absolute));
-                    MessageBox.Show("Fogyatekooooos", "Vesztettél");
+                    MessageBox.Show("Vesztettél!", "Játék Vége!");
+                    this.Close();
                 }
                 else
                 {
