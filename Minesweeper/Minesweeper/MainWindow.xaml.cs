@@ -21,9 +21,12 @@ namespace Minesweeper
             InitializeComponent();
         }
 
+        private Game game;
+
         private void StartButton_Click(object sender, RoutedEventArgs e)
         {
-            Game game = new Game();
+            game?.Close();
+            game = new Game();
             game.Show();
         }
     }
