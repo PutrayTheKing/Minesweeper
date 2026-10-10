@@ -46,6 +46,7 @@ namespace Minesweeper
 
         private void RevealTile(object sender, RoutedEventArgs e)
         {
+            var (y, x) = SenderPos(sender);
             if (sender is Button clickedButton &&
                 clickedButton.Template.FindName("TileImage", clickedButton) is Image image)
             {
@@ -55,13 +56,54 @@ namespace Minesweeper
                 {
                     return;
                 }
-                else
+                else if (sweeper.FieldMatrix[y, x].IsBomb)
                 {
                     image.Source = new BitmapImage(
-                    new Uri("pack://application:,,,/Images/RevealedTile.jpg", UriKind.Absolute));
+                    new Uri("pack://application:,,,/Images/ExplodedBomb.jpg", UriKind.Absolute));
+                    MessageBox.Show("Fogyatekooooos", "Vesztettél");
                 }
-
-                var (y, x) = SenderPos(sender);
+                else
+                {
+                    switch (sweeper.FieldMatrix[y, x].BombsNearby)
+                    {
+                        case 1:
+                            image.Source = new BitmapImage(
+                            new Uri("pack://application:,,,/Images/OneBomb.jpg", UriKind.Absolute));
+                            break;
+                        case 2:
+                            image.Source = new BitmapImage(
+                            new Uri("pack://application:,,,/Images/TwoBomb.jpg", UriKind.Absolute));
+                            break;
+                        case 3:
+                            image.Source = new BitmapImage(
+                            new Uri("pack://application:,,,/Images/ThreeBomb.jpg", UriKind.Absolute));
+                            break;
+                        case 4:
+                            image.Source = new BitmapImage(
+                            new Uri("pack://application:,,,/Images/FourBomb.jpg", UriKind.Absolute));
+                            break;
+                        case 5:
+                            image.Source = new BitmapImage(
+                            new Uri("pack://application:,,,/Images/FiveBomb.jpg", UriKind.Absolute));
+                            break;
+                        case 6:
+                            image.Source = new BitmapImage(
+                            new Uri("pack://application:,,,/Images/SixBomb.jpg", UriKind.Absolute));
+                            break;
+                        case 7:
+                            image.Source = new BitmapImage(
+                            new Uri("pack://application:,,,/Images/SevenBomb.jpg", UriKind.Absolute));
+                            break;
+                        case 8:
+                            image.Source = new BitmapImage(
+                            new Uri("pack://application:,,,/Images/EightBomb.jpg", UriKind.Absolute));
+                            break;
+                        default:
+                            image.Source = new BitmapImage(
+                            new Uri("pack://application:,,,/Images/RevealedTile.jpg", UriKind.Absolute));
+                            break;
+                    }
+                }
                 sweeper.FieldMatrix[y,x].IsRevealed = true;
 
                 e.Handled = true;
