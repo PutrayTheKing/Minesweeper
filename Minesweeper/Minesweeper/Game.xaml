@@ -31,7 +31,7 @@
         </Grid.RowDefinitions>
         
         <!--Row1-->
-        <Button x:Name="B00" Grid.Column="0" Grid.Row="0" Click="B00_Click" MouseRightButtonDown="B00_RightClick" Tag="0,0">
+        <Button x:Name="B00" Grid.Column="0" Grid.Row="0" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="0,0">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -58,7 +58,7 @@
             </Button.Template>
         </Button>
 
-        <Button x:Name="B01" Grid.Column="1" Grid.Row="0" Click="B01_Click" MouseRightButtonDown="B01_RightClick" Tag="0,1">
+        <Button x:Name="B01" Grid.Column="1" Grid.Row="0" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="0,1">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -84,7 +84,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B02" Grid.Column="2" Grid.Row="0" Click="B02_Click" MouseRightButtonDown="B02_MouseRightButtonDown" Tag="0,2">
+        <Button x:Name="B02" Grid.Column="2" Grid.Row="0" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="0,2">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -110,7 +110,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B03" Grid.Column="3" Grid.Row="0" Click="B03_Click" MouseRightButtonDown="B03_MouseRightButtonDown" Tag="0,3">
+        <Button x:Name="B03" Grid.Column="3" Grid.Row="0" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="0,3">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -136,7 +136,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B04" Grid.Column="4" Grid.Row="0" Click="B04_Click" MouseRightButtonDown="B04_MouseRightButtonDown" Tag="0,4">
+        <Button x:Name="B04" Grid.Column="4" Grid.Row="0" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="0,4">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -162,7 +162,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B05" Grid.Column="5" Grid.Row="0" Click="B05_Click" MouseRightButtonDown="B05_MouseRightButtonDown" Tag="0,5">
+        <Button x:Name="B05" Grid.Column="5" Grid.Row="0" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="0,5">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -188,7 +188,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B06" Grid.Column="6" Grid.Row="0" Click="B06_Click" MouseRightButtonDown="B06_MouseRightButtonDown" Tag="0,6">
+        <Button x:Name="B06" Grid.Column="6" Grid.Row="0" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="0,6">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -214,7 +214,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B07" Grid.Column="7" Grid.Row="0" Click="B07_Click" MouseRightButtonDown="B07_MouseRightButtonDown" Tag="0,7">
+        <Button x:Name="B07" Grid.Column="7" Grid.Row="0" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="0,7">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -240,7 +240,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B08" Grid.Column="8" Grid.Row="0" Click="B08_Click" MouseRightButtonDown="B08_MouseRightButtonDown" Tag="0,8">
+        <Button x:Name="B08" Grid.Column="8" Grid.Row="0" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="0,8">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -268,7 +268,7 @@
         </Button>
 
         <!--Row2-->
-        <Button x:Name="B10" Grid.Column="0" Grid.Row="1" Click="B10_Click" MouseRightButtonDown="B10_MouseRightButtonDown" Tag="1,0">
+        <Button x:Name="B10" Grid.Column="0" Grid.Row="1" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="1,0">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -294,7 +294,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B11" Grid.Column="1" Grid.Row="1" Click="B11_Click" MouseRightButtonDown="B11_MouseRightButtonDown" Tag="1,1">
+        <Button x:Name="B11" Grid.Column="1" Grid.Row="1" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="1,1">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -320,7 +320,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B12" Grid.Column="2" Grid.Row="1" Click="B12_Click" MouseRightButtonDown="B12_MouseRightButtonDown" Tag="1,2">
+        <Button x:Name="B12" Grid.Column="2" Grid.Row="1" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="1,2">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -346,7 +346,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B13" Grid.Column="3" Grid.Row="1" Click="B13_Click" MouseRightButtonDown="B13_MouseRightButtonDown" Tag="1,3">
+        <Button x:Name="B13" Grid.Column="3" Grid.Row="1" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="1,3">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -372,7 +372,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B14" Grid.Column="4" Grid.Row="1" Click="B14_Click" MouseRightButtonDown="B14_MouseRightButtonDown" Tag="1,4">
+        <Button x:Name="B14" Grid.Column="4" Grid.Row="1" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="1,4">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -398,7 +398,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B15" Grid.Column="5" Grid.Row="1" Click="B15_Click" MouseRightButtonDown="B15_MouseRightButtonDown" Tag="1,5">
+        <Button x:Name="B15" Grid.Column="5" Grid.Row="1" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="1,5">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -424,7 +424,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B16" Grid.Column="6" Grid.Row="1" Click="B16_Click" MouseRightButtonDown="B16_MouseRightButtonDown" Tag="1,6"> 
+        <Button x:Name="B16" Grid.Column="6" Grid.Row="1" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="1,6"> 
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -450,7 +450,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B17" Grid.Column="7" Grid.Row="1" Click="B17_Click" MouseRightButtonDown="B17_MouseRightButtonDown" Tag="1,7">
+        <Button x:Name="B17" Grid.Column="7" Grid.Row="1" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="1,7">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -476,243 +476,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B18" Grid.Column="8" Grid.Row="1" Click="B18_Click" MouseRightButtonDown="B18_MouseRightButtonDown" Tag="1,8">
-            <Button.Template>
-                <ControlTemplate TargetType="Button">
-                    <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
-                        <Grid>
-                            <Image x:Name="TileImage" Source="/Unexplored Tile.jpg" Stretch="Fill"/>
-                            <Rectangle x:Name="HoverOverlay" Fill="Black" Opacity="0"/>
-                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                        </Grid>
-                        <Border.Effect>
-                            <DropShadowEffect/>
-                        </Border.Effect>
-                    </Border>
-
-                    <ControlTemplate.Triggers>
-                        <Trigger Property="IsMouseOver" Value="True">
-                            <Setter TargetName="HoverOverlay" Property="Opacity" Value="0.20"/>
-                        </Trigger>
-
-                        <Trigger Property="IsPressed" Value="True">
-                            <Setter TargetName="HoverOverlay" Property="Opacity" Value="0.35"/>
-                        </Trigger>
-                    </ControlTemplate.Triggers>
-                </ControlTemplate>
-            </Button.Template>
-        </Button>
-
-        <!--Row3-->
-        <Button x:Name="B20" Grid.Column="0" Grid.Row="2" Click="B20_Click" MouseRightButtonDown="B20_MouseRightButtonDown" Tag="2,0">
-            <Button.Template>
-                <ControlTemplate TargetType="Button">
-                    <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
-                        <Grid>
-                            <Image x:Name="TileImage" Source="/Unexplored Tile.jpg" Stretch="Fill"/>
-                            <Rectangle x:Name="HoverOverlay" Fill="Black" Opacity="0"/>
-                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                        </Grid>
-                        <Border.Effect>
-                            <DropShadowEffect/>
-                        </Border.Effect>
-                    </Border>
-
-                    <ControlTemplate.Triggers>
-                        <Trigger Property="IsMouseOver" Value="True">
-                            <Setter TargetName="HoverOverlay" Property="Opacity" Value="0.20"/>
-                        </Trigger>
-
-                        <Trigger Property="IsPressed" Value="True">
-                            <Setter TargetName="HoverOverlay" Property="Opacity" Value="0.35"/>
-                        </Trigger>
-                    </ControlTemplate.Triggers>
-                </ControlTemplate>
-            </Button.Template>
-        </Button>
-        <Button x:Name="B21" Grid.Column="1" Grid.Row="2" Click="B21_Click" MouseRightButtonDown="B21_MouseRightButtonDown" Tag="2,1">
-            <Button.Template>
-                <ControlTemplate TargetType="Button">
-                    <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
-                        <Grid>
-                            <Image x:Name="TileImage" Source="/Unexplored Tile.jpg" Stretch="Fill"/>
-                            <Rectangle x:Name="HoverOverlay" Fill="Black" Opacity="0"/>
-                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                        </Grid>
-                        <Border.Effect>
-                            <DropShadowEffect/>
-                        </Border.Effect>
-                    </Border>
-
-                    <ControlTemplate.Triggers>
-                        <Trigger Property="IsMouseOver" Value="True">
-                            <Setter TargetName="HoverOverlay" Property="Opacity" Value="0.20"/>
-                        </Trigger>
-
-                        <Trigger Property="IsPressed" Value="True">
-                            <Setter TargetName="HoverOverlay" Property="Opacity" Value="0.35"/>
-                        </Trigger>
-                    </ControlTemplate.Triggers>
-                </ControlTemplate>
-            </Button.Template>
-        </Button>
-        <Button x:Name="B22" Grid.Column="2" Grid.Row="2" Click="B22_Click" MouseRightButtonDown="B22_MouseRightButtonDown" Tag="2,2">
-            <Button.Template>
-                <ControlTemplate TargetType="Button">
-                    <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
-                        <Grid>
-                            <Image x:Name="TileImage" Source="/Unexplored Tile.jpg" Stretch="Fill"/>
-                            <Rectangle x:Name="HoverOverlay" Fill="Black" Opacity="0"/>
-                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                        </Grid>
-                        <Border.Effect>
-                            <DropShadowEffect/>
-                        </Border.Effect>
-                    </Border>
-
-                    <ControlTemplate.Triggers>
-                        <Trigger Property="IsMouseOver" Value="True">
-                            <Setter TargetName="HoverOverlay" Property="Opacity" Value="0.20"/>
-                        </Trigger>
-
-                        <Trigger Property="IsPressed" Value="True">
-                            <Setter TargetName="HoverOverlay" Property="Opacity" Value="0.35"/>
-                        </Trigger>
-                    </ControlTemplate.Triggers>
-                </ControlTemplate>
-            </Button.Template>
-        </Button>
-        <Button x:Name="B23" Grid.Column="3" Grid.Row="2" Click="B23_Click" MouseRightButtonDown="B23_MouseRightButtonDown" Tag="2,3">
-            <Button.Template>
-                <ControlTemplate TargetType="Button">
-                    <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
-                        <Grid>
-                            <Image x:Name="TileImage" Source="/Unexplored Tile.jpg" Stretch="Fill"/>
-                            <Rectangle x:Name="HoverOverlay" Fill="Black" Opacity="0"/>
-                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                        </Grid>
-                        <Border.Effect>
-                            <DropShadowEffect/>
-                        </Border.Effect>
-                    </Border>
-
-                    <ControlTemplate.Triggers>
-                        <Trigger Property="IsMouseOver" Value="True">
-                            <Setter TargetName="HoverOverlay" Property="Opacity" Value="0.20"/>
-                        </Trigger>
-
-                        <Trigger Property="IsPressed" Value="True">
-                            <Setter TargetName="HoverOverlay" Property="Opacity" Value="0.35"/>
-                        </Trigger>
-                    </ControlTemplate.Triggers>
-                </ControlTemplate>
-            </Button.Template>
-        </Button>
-        <Button x:Name="B24" Grid.Column="4" Grid.Row="2" Click="B24_Click" MouseRightButtonDown="B24_MouseRightButtonDown" Tag="2,4">
-            <Button.Template>
-                <ControlTemplate TargetType="Button">
-                    <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
-                        <Grid>
-                            <Image x:Name="TileImage" Source="/Unexplored Tile.jpg" Stretch="Fill"/>
-                            <Rectangle x:Name="HoverOverlay" Fill="Black" Opacity="0"/>
-                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                        </Grid>
-                        <Border.Effect>
-                            <DropShadowEffect/>
-                        </Border.Effect>
-                    </Border>
-
-                    <ControlTemplate.Triggers>
-                        <Trigger Property="IsMouseOver" Value="True">
-                            <Setter TargetName="HoverOverlay" Property="Opacity" Value="0.20"/>
-                        </Trigger>
-
-                        <Trigger Property="IsPressed" Value="True">
-                            <Setter TargetName="HoverOverlay" Property="Opacity" Value="0.35"/>
-                        </Trigger>
-                    </ControlTemplate.Triggers>
-                </ControlTemplate>
-            </Button.Template>
-        </Button>
-        <Button x:Name="B25" Grid.Column="5" Grid.Row="2" Click="B25_Click" MouseRightButtonDown="B25_MouseRightButtonDown" Tag="2,5">
-            <Button.Template>
-                <ControlTemplate TargetType="Button">
-                    <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
-                        <Grid>
-                            <Image x:Name="TileImage" Source="/Unexplored Tile.jpg" Stretch="Fill"/>
-                            <Rectangle x:Name="HoverOverlay" Fill="Black" Opacity="0"/>
-                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                        </Grid>
-                        <Border.Effect>
-                            <DropShadowEffect/>
-                        </Border.Effect>
-                    </Border>
-
-                    <ControlTemplate.Triggers>
-                        <Trigger Property="IsMouseOver" Value="True">
-                            <Setter TargetName="HoverOverlay" Property="Opacity" Value="0.20"/>
-                        </Trigger>
-
-                        <Trigger Property="IsPressed" Value="True">
-                            <Setter TargetName="HoverOverlay" Property="Opacity" Value="0.35"/>
-                        </Trigger>
-                    </ControlTemplate.Triggers>
-                </ControlTemplate>
-            </Button.Template>
-        </Button>
-        <Button x:Name="B26" Grid.Column="6" Grid.Row="2" Click="B26_Click" MouseRightButtonDown="B26_MouseRightButtonDown" Tag="2,6">
-            <Button.Template>
-                <ControlTemplate TargetType="Button">
-                    <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
-                        <Grid>
-                            <Image x:Name="TileImage" Source="/Unexplored Tile.jpg" Stretch="Fill"/>
-                            <Rectangle x:Name="HoverOverlay" Fill="Black" Opacity="0"/>
-                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                        </Grid>
-                        <Border.Effect>
-                            <DropShadowEffect/>
-                        </Border.Effect>
-                    </Border>
-
-                    <ControlTemplate.Triggers>
-                        <Trigger Property="IsMouseOver" Value="True">
-                            <Setter TargetName="HoverOverlay" Property="Opacity" Value="0.20"/>
-                        </Trigger>
-
-                        <Trigger Property="IsPressed" Value="True">
-                            <Setter TargetName="HoverOverlay" Property="Opacity" Value="0.35"/>
-                        </Trigger>
-                    </ControlTemplate.Triggers>
-                </ControlTemplate>
-            </Button.Template>
-        </Button>
-        <Button x:Name="B27" Grid.Column="7" Grid.Row="2" Click="B27_Click" MouseRightButtonDown="B27_MouseRightButtonDown" Tag="2,7">
-            <Button.Template>
-                <ControlTemplate TargetType="Button">
-                    <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
-                        <Grid>
-                            <Image x:Name="TileImage" Source="/Unexplored Tile.jpg" Stretch="Fill"/>
-                            <Rectangle x:Name="HoverOverlay" Fill="Black" Opacity="0"/>
-                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                        </Grid>
-                        <Border.Effect>
-                            <DropShadowEffect/>
-                        </Border.Effect>
-                    </Border>
-
-                    <ControlTemplate.Triggers>
-                        <Trigger Property="IsMouseOver" Value="True">
-                            <Setter TargetName="HoverOverlay" Property="Opacity" Value="0.20"/>
-                        </Trigger>
-
-                        <Trigger Property="IsPressed" Value="True">
-                            <Setter TargetName="HoverOverlay" Property="Opacity" Value="0.35"/>
-                        </Trigger>
-                    </ControlTemplate.Triggers>
-                </ControlTemplate>
-            </Button.Template>
-        </Button>
-        <Button x:Name="B28" Grid.Column="8" Grid.Row="2" Click="B28_Click" MouseRightButtonDown="B28_MouseRightButtonDown" Tag="2,8">
+        <Button x:Name="B18" Grid.Column="8" Grid.Row="1" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="1,8">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -740,7 +504,7 @@
         </Button>
 
         <!--Row3-->
-        <Button x:Name="B30" Grid.Column="0" Grid.Row="3" Click="B30_Click" MouseRightButtonDown="B30_MouseRightButtonDown" Tag="3,0">
+        <Button x:Name="B20" Grid.Column="0" Grid.Row="2" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="2,0">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -766,7 +530,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B31" Grid.Column="1" Grid.Row="3" Click="B31_Click" MouseRightButtonDown="B31_MouseRightButtonDown" Tag="3,1">
+        <Button x:Name="B21" Grid.Column="1" Grid.Row="2" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="2,1">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -792,7 +556,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B32" Grid.Column="2" Grid.Row="3" Click="B32_Click" MouseRightButtonDown="B32_MouseRightButtonDown" Tag="3,2">
+        <Button x:Name="B22" Grid.Column="2" Grid.Row="2" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="2,2">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -818,7 +582,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B33" Grid.Column="3" Grid.Row="3" Click="B33_Click" MouseRightButtonDown="B33_MouseRightButtonDown" Tag="3,3">
+        <Button x:Name="B23" Grid.Column="3" Grid.Row="2" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="2,3">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -844,7 +608,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B34" Grid.Column="4" Grid.Row="3" Click="B34_Click" MouseRightButtonDown="B34_MouseRightButtonDown" Tag="3,4">
+        <Button x:Name="B24" Grid.Column="4" Grid.Row="2" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="2,4">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -870,7 +634,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B35" Grid.Column="5" Grid.Row="3" Click="B35_Click" MouseRightButtonDown="B35_MouseRightButtonDown" Tag="3,5">
+        <Button x:Name="B25" Grid.Column="5" Grid.Row="2" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="2,5">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -896,7 +660,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B36" Grid.Column="6" Grid.Row="3" Click="B36_Click" MouseRightButtonDown="B36_MouseRightButtonDown" Tag="3,6">
+        <Button x:Name="B26" Grid.Column="6" Grid.Row="2" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="2,6">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -922,7 +686,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B37" Grid.Column="7" Grid.Row="3" Click="B37_Click" MouseRightButtonDown="B37_MouseRightButtonDown" Tag="3,7">
+        <Button x:Name="B27" Grid.Column="7" Grid.Row="2" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="2,7">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -948,7 +712,243 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B38" Grid.Column="8" Grid.Row="3" Click="B38_Click" MouseRightButtonDown="B38_MouseRightButtonDown" Tag="3,8">
+        <Button x:Name="B28" Grid.Column="8" Grid.Row="2" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="2,8">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
+                        <Grid>
+                            <Image x:Name="TileImage" Source="/Unexplored Tile.jpg" Stretch="Fill"/>
+                            <Rectangle x:Name="HoverOverlay" Fill="Black" Opacity="0"/>
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Grid>
+                        <Border.Effect>
+                            <DropShadowEffect/>
+                        </Border.Effect>
+                    </Border>
+
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="HoverOverlay" Property="Opacity" Value="0.20"/>
+                        </Trigger>
+
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter TargetName="HoverOverlay" Property="Opacity" Value="0.35"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+
+        <!--Row3-->
+        <Button x:Name="B30" Grid.Column="0" Grid.Row="3" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="3,0">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
+                        <Grid>
+                            <Image x:Name="TileImage" Source="/Unexplored Tile.jpg" Stretch="Fill"/>
+                            <Rectangle x:Name="HoverOverlay" Fill="Black" Opacity="0"/>
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Grid>
+                        <Border.Effect>
+                            <DropShadowEffect/>
+                        </Border.Effect>
+                    </Border>
+
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="HoverOverlay" Property="Opacity" Value="0.20"/>
+                        </Trigger>
+
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter TargetName="HoverOverlay" Property="Opacity" Value="0.35"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="B31" Grid.Column="1" Grid.Row="3" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="3,1">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
+                        <Grid>
+                            <Image x:Name="TileImage" Source="/Unexplored Tile.jpg" Stretch="Fill"/>
+                            <Rectangle x:Name="HoverOverlay" Fill="Black" Opacity="0"/>
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Grid>
+                        <Border.Effect>
+                            <DropShadowEffect/>
+                        </Border.Effect>
+                    </Border>
+
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="HoverOverlay" Property="Opacity" Value="0.20"/>
+                        </Trigger>
+
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter TargetName="HoverOverlay" Property="Opacity" Value="0.35"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="B32" Grid.Column="2" Grid.Row="3" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="3,2">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
+                        <Grid>
+                            <Image x:Name="TileImage" Source="/Unexplored Tile.jpg" Stretch="Fill"/>
+                            <Rectangle x:Name="HoverOverlay" Fill="Black" Opacity="0"/>
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Grid>
+                        <Border.Effect>
+                            <DropShadowEffect/>
+                        </Border.Effect>
+                    </Border>
+
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="HoverOverlay" Property="Opacity" Value="0.20"/>
+                        </Trigger>
+
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter TargetName="HoverOverlay" Property="Opacity" Value="0.35"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="B33" Grid.Column="3" Grid.Row="3" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="3,3">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
+                        <Grid>
+                            <Image x:Name="TileImage" Source="/Unexplored Tile.jpg" Stretch="Fill"/>
+                            <Rectangle x:Name="HoverOverlay" Fill="Black" Opacity="0"/>
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Grid>
+                        <Border.Effect>
+                            <DropShadowEffect/>
+                        </Border.Effect>
+                    </Border>
+
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="HoverOverlay" Property="Opacity" Value="0.20"/>
+                        </Trigger>
+
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter TargetName="HoverOverlay" Property="Opacity" Value="0.35"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="B34" Grid.Column="4" Grid.Row="3" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="3,4">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
+                        <Grid>
+                            <Image x:Name="TileImage" Source="/Unexplored Tile.jpg" Stretch="Fill"/>
+                            <Rectangle x:Name="HoverOverlay" Fill="Black" Opacity="0"/>
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Grid>
+                        <Border.Effect>
+                            <DropShadowEffect/>
+                        </Border.Effect>
+                    </Border>
+
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="HoverOverlay" Property="Opacity" Value="0.20"/>
+                        </Trigger>
+
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter TargetName="HoverOverlay" Property="Opacity" Value="0.35"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="B35" Grid.Column="5" Grid.Row="3" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="3,5">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
+                        <Grid>
+                            <Image x:Name="TileImage" Source="/Unexplored Tile.jpg" Stretch="Fill"/>
+                            <Rectangle x:Name="HoverOverlay" Fill="Black" Opacity="0"/>
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Grid>
+                        <Border.Effect>
+                            <DropShadowEffect/>
+                        </Border.Effect>
+                    </Border>
+
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="HoverOverlay" Property="Opacity" Value="0.20"/>
+                        </Trigger>
+
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter TargetName="HoverOverlay" Property="Opacity" Value="0.35"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="B36" Grid.Column="6" Grid.Row="3" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="3,6">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
+                        <Grid>
+                            <Image x:Name="TileImage" Source="/Unexplored Tile.jpg" Stretch="Fill"/>
+                            <Rectangle x:Name="HoverOverlay" Fill="Black" Opacity="0"/>
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Grid>
+                        <Border.Effect>
+                            <DropShadowEffect/>
+                        </Border.Effect>
+                    </Border>
+
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="HoverOverlay" Property="Opacity" Value="0.20"/>
+                        </Trigger>
+
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter TargetName="HoverOverlay" Property="Opacity" Value="0.35"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="B37" Grid.Column="7" Grid.Row="3" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="3,7">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
+                        <Grid>
+                            <Image x:Name="TileImage" Source="/Unexplored Tile.jpg" Stretch="Fill"/>
+                            <Rectangle x:Name="HoverOverlay" Fill="Black" Opacity="0"/>
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Grid>
+                        <Border.Effect>
+                            <DropShadowEffect/>
+                        </Border.Effect>
+                    </Border>
+
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="HoverOverlay" Property="Opacity" Value="0.20"/>
+                        </Trigger>
+
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter TargetName="HoverOverlay" Property="Opacity" Value="0.35"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="B38" Grid.Column="8" Grid.Row="3" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="3,8">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -976,7 +976,7 @@
         </Button>
 
         <!--Row4-->
-        <Button x:Name="B40" Grid.Column="0" Grid.Row="4" Click="B40_Click" MouseRightButtonDown="B40_MouseRightButtonDown" Tag="4,0">
+        <Button x:Name="B40" Grid.Column="0" Grid.Row="4" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="4,0">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -1002,7 +1002,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B41" Grid.Column="1" Grid.Row="4" Click="B41_Click" MouseRightButtonDown="B41_MouseRightButtonDown" Tag="4,1">
+        <Button x:Name="B41" Grid.Column="1" Grid.Row="4" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="4,1">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -1028,7 +1028,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B42" Grid.Column="2" Grid.Row="4" Click="B42_Click" MouseRightButtonDown="B42_MouseRightButtonDown" Tag="4,2">
+        <Button x:Name="B42" Grid.Column="2" Grid.Row="4" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="4,2">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -1054,7 +1054,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B43" Grid.Column="3" Grid.Row="4" Click="B43_Click" MouseRightButtonDown="B43_MouseRightButtonDown" Tag="4,3">
+        <Button x:Name="B43" Grid.Column="3" Grid.Row="4" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="4,3">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -1080,7 +1080,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B44" Grid.Column="4" Grid.Row="4" Click="B44_Click" MouseRightButtonDown="B44_MouseRightButtonDown" Tag="4,4">
+        <Button x:Name="B44" Grid.Column="4" Grid.Row="4" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="4,4">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -1106,7 +1106,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B45" Grid.Column="5" Grid.Row="4" Click="B45_Click" MouseRightButtonDown="B45_MouseRightButtonDown" Tag="4,5">
+        <Button x:Name="B45" Grid.Column="5" Grid.Row="4" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="4,5">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -1132,7 +1132,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B46" Grid.Column="6" Grid.Row="4" Click="B46_Click" MouseRightButtonDown="B46_MouseRightButtonDown" Tag="4,6">
+        <Button x:Name="B46" Grid.Column="6" Grid.Row="4" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="4,6">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -1158,7 +1158,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B47" Grid.Column="7" Grid.Row="4" Click="B47_Click" MouseRightButtonDown="B47_MouseRightButtonDown" Tag="4,7">
+        <Button x:Name="B47" Grid.Column="7" Grid.Row="4" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="4,7">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -1184,7 +1184,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B48" Grid.Column="8" Grid.Row="4" Click="B48_Click" MouseRightButtonDown="B48_MouseRightButtonDown" Tag="4,8">
+        <Button x:Name="B48" Grid.Column="8" Grid.Row="4" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="4,8">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -1212,7 +1212,7 @@
         </Button>
 
         <!--Row5-->
-        <Button x:Name="B50" Grid.Column="0" Grid.Row="5" Click="B50_Click" MouseRightButtonDown="B50_MouseRightButtonDown" Tag="5,0">
+        <Button x:Name="B50" Grid.Column="0" Grid.Row="5" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="5,0">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -1238,7 +1238,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B51" Grid.Column="1" Grid.Row="5" Click="B51_Click" MouseRightButtonDown="B51_MouseRightButtonDown" Tag="5,1">
+        <Button x:Name="B51" Grid.Column="1" Grid.Row="5" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="5,1">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -1264,7 +1264,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B52" Grid.Column="2" Grid.Row="5" Click="B52_Click" MouseRightButtonDown="B52_MouseRightButtonDown" Tag="5,2">
+        <Button x:Name="B52" Grid.Column="2" Grid.Row="5" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="5,2">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -1290,7 +1290,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B53" Grid.Column="3" Grid.Row="5" Click="B53_Click" MouseRightButtonDown="B53_MouseRightButtonDown" Tag="5,3">
+        <Button x:Name="B53" Grid.Column="3" Grid.Row="5" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="5,3">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -1316,7 +1316,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B54" Grid.Column="4" Grid.Row="5" Click="B54_Click" MouseRightButtonDown="B54_MouseRightButtonDown" Tag="5,4">
+        <Button x:Name="B54" Grid.Column="4" Grid.Row="5" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="5,4">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -1342,7 +1342,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B55" Grid.Column="5" Grid.Row="5" Click="B55_Click" MouseRightButtonDown="B55_MouseRightButtonDown" Tag="5,5">
+        <Button x:Name="B55" Grid.Column="5" Grid.Row="5" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="5,5">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -1368,7 +1368,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B56" Grid.Column="6" Grid.Row="5" Click="B56_Click" MouseRightButtonDown="B56_MouseRightButtonDown" Tag="5,6">
+        <Button x:Name="B56" Grid.Column="6" Grid.Row="5" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="5,6">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -1394,7 +1394,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B57" Grid.Column="7" Grid.Row="5" Click="B57_Click" MouseRightButtonDown="B57_MouseRightButtonDown" Tag="5,7">
+        <Button x:Name="B57" Grid.Column="7" Grid.Row="5" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="5,7">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -1420,7 +1420,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B58" Grid.Column="8" Grid.Row="5" Click="B58_Click" MouseRightButtonDown="B58_MouseRightButtonDown" Tag="5,8">
+        <Button x:Name="B58" Grid.Column="8" Grid.Row="5" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="5,8">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -1448,7 +1448,7 @@
         </Button>
 
         <!--Row6-->
-        <Button x:Name="B60" Grid.Column="0" Grid.Row="6" Click="B60_Click" MouseRightButtonDown="B60_MouseRightButtonDown" Tag="6,0">
+        <Button x:Name="B60" Grid.Column="0" Grid.Row="6" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="6,0">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -1474,7 +1474,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B61" Grid.Column="1" Grid.Row="6" Click="B61_Click" MouseRightButtonDown="B61_MouseRightButtonDown" Tag="6,1">
+        <Button x:Name="B61" Grid.Column="1" Grid.Row="6" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="6,1">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -1500,7 +1500,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B62" Grid.Column="2" Grid.Row="6" Click="B62_Click" MouseRightButtonDown="B62_MouseRightButtonDown" Tag="6,2">
+        <Button x:Name="B62" Grid.Column="2" Grid.Row="6" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="6,2">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -1526,7 +1526,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B63" Grid.Column="3" Grid.Row="6" Click="B63_Click" MouseRightButtonDown="B63_MouseRightButtonDown" Tag="6,3">
+        <Button x:Name="B63" Grid.Column="3" Grid.Row="6" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="6,3">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -1552,7 +1552,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B64" Grid.Column="4" Grid.Row="6" Click="B64_Click" MouseRightButtonDown="B64_MouseRightButtonDown" Tag="6,4">
+        <Button x:Name="B64" Grid.Column="4" Grid.Row="6" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="6,4">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -1578,7 +1578,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B65" Grid.Column="5" Grid.Row="6" Click="B65_Click" MouseRightButtonDown="B65_MouseRightButtonDown" Tag="6,5">
+        <Button x:Name="B65" Grid.Column="5" Grid.Row="6" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="6,5">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -1604,7 +1604,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B66" Grid.Column="6" Grid.Row="6" Click="B66_Click" MouseRightButtonDown="B66_MouseRightButtonDown" Tag="6,6">
+        <Button x:Name="B66" Grid.Column="6" Grid.Row="6" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="6,6">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -1630,7 +1630,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B67" Grid.Column="7" Grid.Row="6" Click="B67_Click" MouseRightButtonDown="B67_MouseRightButtonDown" Tag="6,7">
+        <Button x:Name="B67" Grid.Column="7" Grid.Row="6" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="6,7">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -1656,7 +1656,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B68" Grid.Column="8" Grid.Row="6" Click="B68_Click" MouseRightButtonDown="B68_MouseRightButtonDown" Tag="6,8">
+        <Button x:Name="B68" Grid.Column="8" Grid.Row="6" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="6,8">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -1684,7 +1684,7 @@
         </Button>
 
         <!--Row7-->
-        <Button x:Name="B70" Grid.Column="0" Grid.Row="7" Click="B70_Click" MouseRightButtonDown="B70_MouseRightButtonDown" Tag="7,0">
+        <Button x:Name="B70" Grid.Column="0" Grid.Row="7" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="7,0">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -1710,7 +1710,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B71" Grid.Column="1" Grid.Row="7" Click="B71_Click" MouseRightButtonDown="B71_MouseRightButtonDown" Tag="7,1">
+        <Button x:Name="B71" Grid.Column="1" Grid.Row="7" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="7,1">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -1736,7 +1736,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B72" Grid.Column="2" Grid.Row="7" Click="B72_Click" MouseRightButtonDown="B72_MouseRightButtonDown" Tag="7,2">
+        <Button x:Name="B72" Grid.Column="2" Grid.Row="7" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="7,2">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -1762,7 +1762,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B73" Grid.Column="3" Grid.Row="7" Click="B73_Click" MouseRightButtonDown="B73_MouseRightButtonDown" Tag="7,3">
+        <Button x:Name="B73" Grid.Column="3" Grid.Row="7" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="7,3">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -1788,7 +1788,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B74" Grid.Column="4" Grid.Row="7" Click="B74_Click" MouseRightButtonDown="B74_MouseRightButtonDown" Tag="7,4">
+        <Button x:Name="B74" Grid.Column="4" Grid.Row="7" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="7,4">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -1814,7 +1814,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B75" Grid.Column="5" Grid.Row="7" Click="B75_Click" MouseRightButtonDown="B75_MouseRightButtonDown" Tag="7,5">
+        <Button x:Name="B75" Grid.Column="5" Grid.Row="7" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="7,5">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -1840,7 +1840,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B76" Grid.Column="6" Grid.Row="7" Click="B76_Click" MouseRightButtonDown="B76_MouseRightButtonDown" Tag="7,6">
+        <Button x:Name="B76" Grid.Column="6" Grid.Row="7" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="7,6">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -1866,7 +1866,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B77" Grid.Column="7" Grid.Row="7" Click="B77_Click" MouseRightButtonDown="B77_MouseRightButtonDown" Tag="7,7">
+        <Button x:Name="B77" Grid.Column="7" Grid.Row="7" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="7,7">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -1892,7 +1892,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B78" Grid.Column="8" Grid.Row="7" Click="B78_Click" MouseRightButtonDown="B78_MouseRightButtonDown" Tag="7,8">
+        <Button x:Name="B78" Grid.Column="8" Grid.Row="7" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="7,8">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -1920,7 +1920,7 @@
         </Button>
 
         <!--Row8-->
-        <Button x:Name="B80" Grid.Column="0" Grid.Row="8" Click="B80_Click" MouseRightButtonDown="B80_MouseRightButtonDown" Tag="8,0">
+        <Button x:Name="B80" Grid.Column="0" Grid.Row="8" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="8,0">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -1946,7 +1946,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B81" Grid.Column="1" Grid.Row="8" Click="B81_Click" MouseRightButtonDown="B81_MouseRightButtonDown" Tag="8,1">
+        <Button x:Name="B81" Grid.Column="1" Grid.Row="8" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="8,1">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -1972,7 +1972,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B82" Grid.Column="2" Grid.Row="8" Click="B82_Click" MouseRightButtonDown="B82_MouseRightButtonDown" Tag="8,2">
+        <Button x:Name="B82" Grid.Column="2" Grid.Row="8" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="8,2">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -1998,7 +1998,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B83" Grid.Column="3" Grid.Row="8" Click="B83_Click" MouseRightButtonDown="B83_MouseRightButtonDown" Tag="8,3">
+        <Button x:Name="B83" Grid.Column="3" Grid.Row="8" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="8,3">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -2024,7 +2024,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B84" Grid.Column="4" Grid.Row="8" Click="B84_Click" MouseRightButtonDown="B84_MouseRightButtonDown" Tag="8,4">
+        <Button x:Name="B84" Grid.Column="4" Grid.Row="8" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="8,4">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -2050,7 +2050,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B85" Grid.Column="5" Grid.Row="8" Click="B85_Click" MouseRightButtonDown="B85_MouseRightButtonDown" Tag="8,5">
+        <Button x:Name="B85" Grid.Column="5" Grid.Row="8" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="8,5">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -2076,7 +2076,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B86" Grid.Column="6" Grid.Row="8" Click="B86_Click" MouseRightButtonDown="B86_MouseRightButtonDown" Tag="8,6">
+        <Button x:Name="B86" Grid.Column="6" Grid.Row="8" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="8,6">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -2102,7 +2102,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B87" Grid.Column="7" Grid.Row="8" Click="B87_Click" MouseRightButtonDown="B87_MouseRightButtonDown" Tag="8,7">
+        <Button x:Name="B87" Grid.Column="7" Grid.Row="8" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="8,7">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
@@ -2128,7 +2128,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="B88" Grid.Column="8" Grid.Row="8" Click="B88_Click" MouseRightButtonDown="B88_MouseRightButtonDown" Tag="8,8">
+        <Button x:Name="B88" Grid.Column="8" Grid.Row="8" Click="RevealTile" MouseRightButtonDown="FlagTile" Tag="8,8">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="ButtonBorder" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="0">
