@@ -112,6 +112,7 @@ namespace Minesweeper
         }
 
         private int flaggedtiles = 0;
+        private int bombsFlagged = 0;
 
         private void FlagTile(object sender, RoutedEventArgs e)
         {
@@ -130,6 +131,9 @@ namespace Minesweeper
                     new Uri("pack://application:,,,/Images/UnexploredTile.jpg", UriKind.Absolute));
                     flaggedtiles -= 1;
                     sweeper.FieldMatrix[y, x].IsFlagged = false;
+
+                    if (sweeper.FieldMatrix[y, x].IsBomb)
+                        bombsFlagged--;
                 }
                 else
                 {
@@ -143,6 +147,15 @@ namespace Minesweeper
                         new Uri("pack://application:,,,/Images/FlaggedTile.jpg", UriKind.Absolute));
                         flaggedtiles += 1;
                         sweeper.FieldMatrix[y, x].IsFlagged = true;
+
+                        if (sweeper.FieldMatrix[y, x].IsBomb)
+                            bombsFlagged++;
+
+                        if (bombsFlagged == 10)
+                        {
+                            MessageBox.Show("Vesztettél!", "Játék Vége!");
+                            this.Close();
+                        }
                     }
                 }
             }
