@@ -10,15 +10,15 @@ namespace Minesweeper
     {
         Field field = new Field();
 
-        static int SizeOfField = 9;
-        static int NumberOfMines = 10;
+        public const int SizeOfField = 9;
+        public const int NumberOfMines = 10;
 
-        static int[] LocationOfMines = new int[NumberOfMines];
-        static int[,] Topography = new int[SizeOfField, SizeOfField];
-        static Field[,] FieldMatrix = new Field[SizeOfField, SizeOfField];
+        public int[] LocationOfMines = new int[NumberOfMines];
+        public int[,] Topography = new int[SizeOfField, SizeOfField];
+        public Field[,] FieldMatrix = new Field[SizeOfField, SizeOfField];
 
 
-        public static void CreateMines()
+        public void CreateMines()
         {
             Random rnd = new Random();
 
@@ -36,7 +36,7 @@ namespace Minesweeper
             }
         }
 
-        public static void CreateTopography()
+        public void CreateTopography()
         {
             for (int i = 0; i < NumberOfMines; i++)
             {
@@ -82,7 +82,7 @@ namespace Minesweeper
             }
         }
 
-        public static void GenerateFields()
+        public void GenerateFields()
         {
             for (int i = 0; i < SizeOfField; i++)
             {
@@ -103,6 +103,7 @@ namespace Minesweeper
                 }
             }
         }
+
 
     }
 }
